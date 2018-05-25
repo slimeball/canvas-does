@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="screen-orientation" content="portrait" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="full-screen" content="yes">
+  <meta name="x5-fullscreen" content="true">
+  <title>game</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    canvas {
+      background: #eee;
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <canvas id="js-canvas" height="320"></canvas>
+  <script src="./src/animite.js"></script>
+  <script>
+    // (function () {
+    //   var canvas = document.getElementById('js-canvas'),
+    //     context = canvas.getContext('2d');
+    //   // resize the canvas to fill browser window dynamically
+    //   window.addEventListener('resize', resizeCanvas, false);
+    //   function resizeCanvas() {
+    //     canvas.width = window.innerWidth;
+    //     canvas.height = window.innerHeight;
+    //     /**
+    //      * Your drawings need to be inside this function otherwise they will be reset when 
+    //      * you resize the browser window and the canvas goes will be cleared.
+    //      */
+    //     drawStuff();
+    //   }
+    //   resizeCanvas();
+    //   function drawStuff() {
+    //     // do your drawing stuff here
+    //   }
+    // })();
+  </script>
+</body>
+
+</html>
